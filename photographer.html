@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html  lang="fr">
+<head>
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <meta charset="utf-8">
+    <link rel="icon" type="image/png" href="assets/favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css?family=DM+Sans&display=swap" rel="stylesheet">
+    <title>Fisheye - photographe</title>
+</head>
+<body>
+    <header>
+        <img src="assets/images/logo.png" class="logo" alt="logoFisheye" />
+    </header>
+    <main id="main_wrapper" aria-hidden="false">
+        <div class="photograph-header">
+            <div class="data_photographer"></div>
+            <button class="contact_button" id="open_modal_btn" onclick="displayModal()">Contactez-moi</button>
+            <div class="image_photographer"></div>
+        </div>
+    </main>
+    <div id="contact_modal" >
+        <div class="modal" aria-hidden="true" role="dialog" >
+            <header>
+                <h2>Contactez-moi <br> </h2>
+                <img src="assets/icons/close.svg" alt="close modal" id="modal_close_btn" onclick="closeModal()" />
+            </header>
+            
+            <form  id="modalform" class="formInput">
+                
+                <div >
+                    <label for="firstname">Prénom</label>
+                    <input type="text" id="firstname" name="firstname" placeholder="" required>
+                              <p id="verifyFirstName"></p> 
+                    <label for="lastname">Nom</label>  
+                    <input type="text" id="lastname" name="lastname" placeholder="" required>
+                        <p id="verifylastName"></p> 
+                    <label for="email">Email</label> 
+                    <input type="email" id="email" name="email" placeholder="" required>
+                  <p id="verifyemail"> </p> 
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message"  placeholder="" required></textarea>
+                    <p id="verifymessage"> </p> 
+                    <div class="success-message"></div>
+                </div>
+                 <input type="submit" value="Envoyer" class="submit_button" id="modal-submit-btn" >
+                 
+            </form>
+        </div>
+        
+    </div>
+   
+    <form>
+        <p class="filter" id="filter" aria-hidden="false"> 
+            <label for="select">Trier par :</label>
+            <select id="select" class="filter_description" aria-label="Sorting Options">
+                <option value="titre">Titre</option>
+                <option value="séparation">───────────────</option>
+                <option value="Popularité">Popularité</option>
+                <option value="séparation" >───────────────</option>
+                <option value="Date">Date</option>
+            </select>
+        </p>
+    </form>
+    <div class="collection" id = "collection"  aria-hidden="false" ></div>
+    <div class="lightbox"></div>
+    <div class="nombreTotale">  <span class="likes">0</span></div>
+
+    <script src="scripts/api/Api.js"></script>
+    <script src="scripts/templates/dataphotographer.js"></script>
+    <script src="scripts/utils/contactForm.js"></script>
+    <script src="scripts/templates/datacollection.js"></script>
+    <script src="scripts/utils/filter.js"></script>
+    <script src="scripts/templates/collectionCard.js"></script>
+    
+    
+    <script src="scripts/pages/photographer.js"></script>
+    <script src="scripts/templates/lightbox.js"></script>
+
+    <script src="scripts/templates/pictureTemplate.js"></script>
+    <script src="scripts/templates/videoTemplate.js"></script>
+    <script src="scripts/factory/mediaFactory.js"></script>
+    <script src="scripts/utils/counterlikes.js"></script>
+   
+   
+  </body>
+</html>       
+                  
+                  
+                  
+                  
+               
+            
+            
+           
+      
+              
+
+					
+         
+     
+		  
+    
+   
+      

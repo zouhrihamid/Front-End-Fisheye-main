@@ -1,0 +1,472 @@
+#contact_modal {
+    display: none;
+  z-index: 10;
+}
+
+.photograph-header {
+    background-color: #FAFAFA;
+    height: 230px;
+    margin: 0 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 30px;
+   
+   }
+
+.tri_photo {
+    height: 230px;
+    margin: 0 100px;
+    padding-top: 30px;
+       }
+
+
+
+a {
+    text-decoration: none;
+   
+}
+
+.contact_button {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    padding: 11px;
+    width: 170px;
+    height: 70px;
+    border: none;
+    background-color: #901C1C;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 70px;
+}
+.submit_button {
+  font-size: 20px;
+  /* margin-left: 35%; */
+  padding-right: 5%;
+  font-weight: bold;
+  color: white;
+   width: 30%;
+  height: 7vh;
+  border: none;
+  background-color: #901C1C;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 3%;
+ 
+}
+
+form {
+   display: fixed; 
+  width: 100%;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+form label {
+  color: #312E2E;
+  font-size: 26px;
+}
+
+form div {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: self-start;
+  margin-right: 0%;
+  padding-right: 0%;
+  margin-bottom: 2px;
+}
+
+form input {
+  width: 230px;
+  height: 25px; 
+  border: none;
+  border-radius: 5px;
+  font-size: 24px;
+  padding-left: 5%;
+  padding-right: 3%;
+  margin-bottom: 0px;
+}
+
+#message {
+  width: 370px;
+  height: 110px;
+  resize: none;
+  padding: 10px; 
+  border: none; 
+  border-radius: 5px; 
+ 
+
+}
+
+form input:focus, form textarea:focus {
+  font-weight: 600;
+}
+
+
+
+.logo{
+  cursor: pointer;
+}
+.data_photographer{
+    padding-top: 50px;
+    padding-left: 60px;
+}
+
+.modal {
+  position: fixed;
+   /* overflow:scroll;   */
+  top:1px;
+  left: 35%;
+  bottom: 1px;
+  z-index: 10; 
+    border-radius: 5px;
+    background-color: #DB8876;
+    width: 400px; 
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 30px; 
+     padding-left: 30px; 
+   
+     margin-top: 2%; 
+}
+
+.modal header {
+    justify-content: space-between;
+    width: 100%;
+}
+
+.modal header img {
+ position: absolute;
+    cursor: pointer;
+    right: 15px;
+    top: 15px;
+    font-size: 10px;
+    height: 30px;
+    width: 30px;
+   
+}
+h2{
+  margin-bottom: 5%;
+}
+.modal header h2 {
+ 
+    font-size: 30px;
+    font-weight: normal;
+    
+   padding-top: 4%; margin-top: 0%;
+}
+
+form {
+    display: flex;
+     width: 100%; 
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+form label {
+    color: #312E2E;
+    font-size: 30px;
+    margin-top: 0%;
+    padding-top: 0%;
+}
+
+form div {
+     display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: self-start;
+   
+    
+}
+
+form input {
+    width: 365px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+  
+}
+
+
+.success-message{
+
+  font-size : 36px;
+  color : black;
+  top:-50%;
+    text-align: center; 
+}
+#verifyFirstName, #verifylastName, #verifyemail, #verifymessage{
+  color :rgb(240, 4, 4);
+  font-size: 12px;
+  font-weight: 900;
+  margin: 0%;
+padding: 0%;
+}
+
+.photograph-header  h2 {
+    color: #D3573C;
+    font-size: 30px;
+    margin: 1px;
+    padding: 1px;
+    
+}
+.photograph-header h3 {
+    font-size: 10px;
+    font-weight: 400;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    
+}
+.photograph-header p {
+   color: #757575;
+    font-size: 9px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    
+}
+.photograph-header  img {
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    border-radius: 100px;
+    margin-right: 60px;
+    margin-top: 0px;
+ 
+}
+.data_photographer h1{
+  color: #901C1C;
+  font-size: 24px;
+  font-weight: 400;
+  margin-right: 10px;
+  margin-top: 0%;
+  margin-bottom: 0%;
+  padding: 1px;
+}
+
+.collection {
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+gap: 70px;
+margin-bottom: 20vh;
+margin-left: 8%;
+padding-right: 20%;
+text-align: center;
+margin-top: 0%;
+}
+
+.collection img{
+    height: 50vh;
+    width: 24vw;
+    margin-top: 0%;
+    cursor: pointer;
+   
+}
+.video{
+  height: 50vh;
+  width: 24vw;
+   margin-top: 0%;
+  cursor: pointer;
+ 
+}
+form label{
+  font-size: 21px;
+}
+.filter_description {
+  font-size: 18px;
+  width: 130px;
+  height: 5vh;
+  background-color: #901C1C;
+  color: white;
+  border-radius: 10px;
+  
+}
+
+/* Additional styling to enhance the select element's appearance */
+#select {
+  background-color: #901C1C;
+  color: white;
+  padding: 5px;
+  border: none; 
+  border-radius: 5px; 
+}
+#select option[value="séparation"] {
+  font-size: 10px; 
+ 
+}
+
+  .filter{
+    padding-left: 8%;
+    font-size: 18px;
+    padding-bottom: 5%;
+    padding-top: 5%;
+  }
+  
+.btnLike {
+    color:#901C1C;
+    cursor: pointer;
+    padding-left: 10px;
+   
+   
+  }
+ 
+  .nombreTotale {
+    position: fixed;
+    border-radius: 10px;
+    padding-left: 2%;
+    width: 16%;
+    height: 6%;
+    bottom: 1px; 
+    right: 1px;
+    z-index: 10;
+    color: black;
+    font-size: large;
+    background-color: #D3573C;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 2%;
+  }
+
+.collection div{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;
+  
+   
+  }
+
+.title{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .text-control {
+    width: 100%; 
+    height: 150px;  
+    font-size: 16px;  
+    padding: 10px; 
+    box-sizing: border-box; 
+}
+/*********************** Style lightbox******************* */
+
+
+ 
+ .lightbox{
+   overflow:scroll; 
+  display: block;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+} 
+.lightbox span{
+  padding-left: 20%;
+  color:#901C1C;
+  font-size: 24px;
+  font-weight:400 ;
+}
+/* Center the image within the modal */
+.lightbox img {
+   margin: auto;
+   
+  padding-top: 2%;
+  display: block;
+  width: 60%;
+  height: 90%;
+}
+.lightbox video {
+  margin: auto;
+  display: block;
+  max-width: 90%;
+  max-height: 90%;
+}
+/* Modal Content */
+.light-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  width: 90%;
+  max-width: 100px;
+}
+
+/* Button fermer  */
+.lightbox_close {
+  color:   #901C1C;
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+ .lightbox_next, .lightbox_prev{
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color:   #901C1C;
+  font-weight: bold;
+  font-size: 30px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+ }
+ /* Position button next a droit */
+.lightbox_next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+.lightbox_prev {
+  left: 0;
+  border-radius: 3px 0 0 3px;
+}
+/* On hover, suivant et precedent */
+.lightbox_prev:hover,
+.lightbox_next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+/* On hover,  fermer  */
+.lightbox_close:hover,
+.lightbox_close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+  
+}
+.imagestyle{
+  width: 100%;
+  height: 60%;
+}
+
+.myimage{
+  display : none;
+}
+
+video.fit_video{
+object-fit: cover;
+cursor: pointer;
+
+width: 100%;
+  height: 85%;
+}
+
+
+.hover-shadow:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
